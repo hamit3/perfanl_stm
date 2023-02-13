@@ -1,0 +1,5 @@
+23/08/2020 - > SelfTEST function should be added.
+
+23/08/2020 - > DataPackage Should be updated with YAW, PITCH and ROLL angles
+
+23/08/2020 - > ERROR Codes should be added to Datapacks

@@ -1,0 +1,11 @@
+.\objects\ahrs_algorithm.o: Source\src\ahrs_algorithm.c
+.\objects\ahrs_algorithm.o: .\Source\inc\Fusion.h
+.\objects\ahrs_algorithm.o: .\Source\inc\FusionAhrs.h
+.\objects\ahrs_algorithm.o: .\Source\inc\FusionTypes.h
+.\objects\ahrs_algorithm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\ahrs_algorithm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ahrs_algorithm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ahrs_algorithm.o: .\Source\inc\FusionBias.h
+.\objects\ahrs_algorithm.o: .\Source\inc\FusionCalibration.h
+.\objects\ahrs_algorithm.o: .\Source\inc\FusionCompass.h
+.\objects\ahrs_algorithm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

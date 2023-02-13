@@ -1,0 +1,15 @@
+.\objects\mma8452q.o: Source\src\mma8452q.c
+.\objects\mma8452q.o: .\Source\inc\flags.h
+.\objects\mma8452q.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\mma8452q.o: .\CMSIS\Include\core_cm0plus.h
+.\objects\mma8452q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mma8452q.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\mma8452q.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\mma8452q.o: .\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h
+.\objects\mma8452q.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\mma8452q.o: .\Source\inc\i2c.h
+.\objects\mma8452q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mma8452q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mma8452q.o: .\Source\inc\mma8452q.h
+.\objects\mma8452q.o: .\Source\inc\systick.h
+.\objects\mma8452q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

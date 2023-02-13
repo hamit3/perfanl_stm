@@ -1,0 +1,258 @@
+Dependencies for Project 'EPTS_PERFANL_STM_BL', Target 'stm32l053': (DO NOT MODIFY !)
+F (.\main.c)(0x5FCE482C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\hw.h)(0x5E95BD50)
+I (.\Source\inc\xb3_24.h)(0x5F96CBE0)
+I (.\Source\inc\Fusion.h)(0x5C630FC7)
+I (.\Source\inc\FusionAhrs.h)(0x5F522D76)
+I (.\Source\inc\FusionTypes.h)(0x5C630FC7)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+I (.\Source\inc\FusionBias.h)(0x5F522D76)
+I (.\Source\inc\FusionCalibration.h)(0x5C630FC7)
+I (.\Source\inc\FusionCompass.h)(0x5C630FC7)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+I (.\Source\inc\led.h)(0x5E8F2933)
+I (.\Source\inc\button.h)(0x5F564F8E)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (.\Source\inc\mma8452q.h)(0x5F4E7EFB)
+I (.\Source\inc\fxas21002.h)(0x5F523206)
+I (.\Source\inc\i2c.h)(0x5E8D235B)
+I (.\Source\inc\iis2mdc_reg.h)(0x5F42D94B)
+I (.\Source\inc\cam_m8q.h)(0x5F5BFB62)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\Source\inc\rtc.h)(0x5E1E8847)
+I (.\Source\inc\btn.h)(0x5E09C1B4)
+I (.\Source\inc\xbee.h)(0x5F564F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D47B1C5)
+F (.\Source\src\button.c)(0x5F564F91)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\button.o --omf_browse .\objects\button.crf --depend .\objects\button.d)
+I (.\Source\inc\button.h)(0x5F564F8E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+I (.\Source\inc\led.h)(0x5E8F2933)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+I (.\Source\inc\rtc.h)(0x5E1E8847)
+I (.\Source\inc\btn.h)(0x5E09C1B4)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D47B1C5)
+I (.\Source\inc\config.h)(0x5DE9ED4C)
+F (.\Source\src\gpio.c)(0x5E8F2A0F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\GPIO.h)(0x5E8F2A1A)
+F (.\Source\src\hw.c)(0x5E98DFED)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\hw.o --omf_browse .\objects\hw.crf --depend .\objects\hw.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\config.h)(0x5DE9ED4C)
+I (.\Source\inc\led.h)(0x5E8F2933)
+I (.\Source\inc\button.h)(0x5F564F8E)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+I (.\Source\inc\btn.h)(0x5E09C1B4)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+I (.\Source\inc\i2c.h)(0x5E8D235B)
+I (.\Source\inc\rtc.h)(0x5E1E8847)
+F (.\Source\src\i2c.c)(0x5F414B41)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\I2C.h)(0x5E8D235B)
+I (.\Source\inc\interrupt.h)(0x56D1819E)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+F (.\Source\src\interrupt.c)(0x5E947A02)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+I (.\Source\inc\btn.h)(0x5E09C1B4)
+I (.\Source\inc\rtc.h)(0x5E1E8847)
+I (.\Source\inc\hw.h)(0x5E95BD50)
+F (.\Source\src\led.c)(0x5F565F48)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\Source\inc\led.h)(0x5E8F2933)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+F (.\Source\src\mma8452q.c)(0x5F4EDB4E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\mma8452q.o --omf_browse .\objects\mma8452q.crf --depend .\objects\mma8452q.d)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\i2c.h)(0x5E8D235B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (.\Source\inc\mma8452q.h)(0x5F4E7EFB)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+F (.\Source\src\cam_m8q.c)(0x5F5BFBD8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\cam_m8q.o --omf_browse .\objects\cam_m8q.crf --depend .\objects\cam_m8q.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D47B1C5)
+I (.\Source\inc\cam_m8q.h)(0x5F5BFB62)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+F (.\Source\src\fxas21002.c)(0x5FA27D46)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\fxas21002.o --omf_browse .\objects\fxas21002.crf --depend .\objects\fxas21002.d)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+I (.\Source\inc\fxas21002.h)(0x5F523206)
+I (.\Source\inc\i2c.h)(0x5E8D235B)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+F (.\Source\src\iis2mdc_reg.c)(0x5F720B54)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\iis2mdc_reg.o --omf_browse .\objects\iis2mdc_reg.crf --depend .\objects\iis2mdc_reg.d)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\iis2mdc_reg.h)(0x5F42D94B)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (.\Source\inc\i2c.h)(0x5E8D235B)
+F (.\Source\src\systick.c)(0x5F0CF170)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+F (.\Source\src\btn.c)(0x5E946B41)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\btn.o --omf_browse .\objects\btn.crf --depend .\objects\btn.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599F137A)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\config.h)(0x5DE9ED4C)
+I (.\Source\inc\btn.h)(0x5E09C1B4)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+F (.\Source\src\xb3_24c.c)(0x5F818646)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\xb3_24c.o --omf_browse .\objects\xb3_24c.crf --depend .\objects\xb3_24c.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (.\Source\inc\flags.h)(0x5F5653D6)
+I (.\Source\inc\systick.h)(0x5F0CEA02)
+I (.\Source\inc\cam_m8q.h)(0x5F5BFB62)
+I (.\Source\inc\xb3_24.h)(0x5F96CBE0)
+I (.\Source\inc\Fusion.h)(0x5C630FC7)
+I (.\Source\inc\FusionAhrs.h)(0x5F522D76)
+I (.\Source\inc\FusionTypes.h)(0x5C630FC7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+I (.\Source\inc\FusionBias.h)(0x5F522D76)
+I (.\Source\inc\FusionCalibration.h)(0x5C630FC7)
+I (.\Source\inc\FusionCompass.h)(0x5C630FC7)
+I (.\Source\inc\mma8452q.h)(0x5F4E7EFB)
+I (.\Source\inc\fxas21002.h)(0x5F523206)
+I (.\Source\inc\i2c.h)(0x5E8D235B)
+I (.\Source\inc\gpio.h)(0x5E8F2A1A)
+I (.\Source\inc\iis2mdc_reg.h)(0x5F42D94B)
+F (.\Source\src\xbee.c)(0x5F807DE3)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\xbee.o --omf_browse .\objects\xbee.crf --depend .\objects\xbee.d)
+I (.\Source\inc\xbee.h)(0x5F564F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D47B1C5)
+I (.\Source\inc\xb3_24.h)(0x5F96CBE0)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (.\Source\inc\Fusion.h)(0x5C630FC7)
+I (.\Source\inc\FusionAhrs.h)(0x5F522D76)
+I (.\Source\inc\FusionTypes.h)(0x5C630FC7)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+I (.\Source\inc\FusionBias.h)(0x5F522D76)
+I (.\Source\inc\FusionCalibration.h)(0x5C630FC7)
+I (.\Source\inc\FusionCompass.h)(0x5C630FC7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+F (.\Source\src\FusionAhrs.c)(0x5F50460B)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\fusionahrs.o --omf_browse .\objects\fusionahrs.crf --depend .\objects\fusionahrs.d)
+I (.\Source\inc\FusionAhrs.h)(0x5F522D76)
+I (.\Source\inc\FusionTypes.h)(0x5C630FC7)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x599F137C)
+F (.\Source\src\FusionBias.c)(0x5C630FC7)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\fusionbias.o --omf_browse .\objects\fusionbias.crf --depend .\objects\fusionbias.d)
+I (.\Source\inc\FusionBias.h)(0x5F522D76)
+I (.\Source\inc\FusionTypes.h)(0x5C630FC7)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D47B1C5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D47B1C5)
+F (.\Source\src\startup_stm32l053xx.s)(0x5F3EFE75)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527" --pd "STM32L053xx SETA 1"--list .\listings\startup_stm32l053xx.lst --xref -o .\objects\startup_stm32l053xx.o --depend .\objects\startup_stm32l053xx.d)
+F (.\Source\src\system_stm32l0xx.c)(0x5E8F0599)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\inc -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32L0xx\Include -I ..\EPTS_PERFANL_STM_BL-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32L053xx-o .\objects\system_stm32l0xx.o --omf_browse .\objects\system_stm32l0xx.crf --depend .\objects\system_stm32l0xx.d)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (.\CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CE491C0)
+I (.\CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (.\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)

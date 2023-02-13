@@ -1,0 +1,14 @@
+.\objects\cam_m8q.o: Source\src\cam_m8q.c
+.\objects\cam_m8q.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\cam_m8q.o: .\CMSIS\Include\core_cm0plus.h
+.\objects\cam_m8q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cam_m8q.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\cam_m8q.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\cam_m8q.o: .\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h
+.\objects\cam_m8q.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\cam_m8q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\cam_m8q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\cam_m8q.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\cam_m8q.o: .\Source\inc\cam_m8q.h
+.\objects\cam_m8q.o: .\Source\inc\flags.h
+.\objects\cam_m8q.o: .\Source\inc\systick.h

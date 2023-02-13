@@ -1,0 +1,14 @@
+.\objects\interrupt.o: Source\src\interrupt.c
+.\objects\interrupt.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h
+.\objects\interrupt.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\interrupt.o: .\CMSIS\Include\core_cm0plus.h
+.\objects\interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\interrupt.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\interrupt.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\interrupt.o: .\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h
+.\objects\interrupt.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\interrupt.o: .\Source\inc\flags.h
+.\objects\interrupt.o: .\Source\inc\systick.h
+.\objects\interrupt.o: .\Source\inc\btn.h
+.\objects\interrupt.o: .\Source\inc\rtc.h
+.\objects\interrupt.o: .\Source\inc\hw.h
